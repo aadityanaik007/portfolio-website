@@ -30,7 +30,7 @@ const ProjectTemplate = () => {
                                         <pre>{item.text}</pre>
                                     </div>
                                     <div style={{height:"20rem",width:"30rem",border:"1px solid white",padding:"5rem"}}>
-                                        <img src={WebDesign}></img>
+                                        <img src={WebDesign} alt='Image'></img>
                                     </div>
                                 </div>
                     })}
