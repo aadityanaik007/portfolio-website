@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import "./projectTemplate.css"
-import WebDesign from '../../assests/website-design.png'
+// import WebDesign from '../../assests/website-design.png'
 
 const ProjectTemplate = () => {
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const result = await fetch('http://127.0.0.1:8000/project-1')
-            result.json().then(json => {
-                // console.log(json['data']);
-                setData(json.data)
-            })
-                .catch(error => console.error(error));
-        }
-        fetchData()
-    }, []);
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         const result = await fetch('http://127.0.0.1:8000/project-1')
+    //         result.json().then(json => {
+    //             // console.log(json['data']);
+    //             setData(json.data)
+    //         })
+    //             .catch(error => console.error(error));
+    //     }
+    //     fetchData()
+    // }, []);
 
     return (
         <div className='projectTemplateDiv'>
