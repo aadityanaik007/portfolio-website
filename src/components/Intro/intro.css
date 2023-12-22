@@ -65,6 +65,8 @@
         right: auto; /* Reset the right property */
         left: 0; /* Move the image to the left */
         max-width: 100%;
+        top:1rem;
+
     }
 }
 
