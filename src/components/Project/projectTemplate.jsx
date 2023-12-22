@@ -21,7 +21,7 @@ const ProjectTemplate = () => {
         <div className='projectTemplateDiv'>
             {/* <div style={{height:"10rem",width:"10rem",border:"1px solid white",padding:"5rem"}}>111111</div>
         <div style={{height:"10rem",width:"10rem",border:"1px solid white",padding:"5rem"}}>222222</div> */}
-            {data !== [] ?
+            {/* {data !== [] ?
                 <div >
                     {data.map((item) => {
                         //To do: Make this div relative to the outer div
@@ -34,7 +34,8 @@ const ProjectTemplate = () => {
                                     </div>
                                 </div>
                     })}
-                </div> : 'Loading...'}
+                </div> : 'Loading...'} */}
+                <p>Projects</p>
         </div>
     )
 }
