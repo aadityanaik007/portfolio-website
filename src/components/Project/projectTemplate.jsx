@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./projectTemplate.css"
-import UIDesign from '../../assests/ui-design.png'
 import WebDesign from '../../assests/website-design.png'
-import AppDesign from '../../assests/app-design.png'
 
 const ProjectTemplate = () => {
     const [data, setData] = useState([]);
