@@ -7,28 +7,33 @@ const Skills = () => {
   return (
     <section id="skills">
         <span className="skillTitle">What I do</span>
-        <span className="skillDesc">I'm a skilled and passionate web designer Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</span>
+        <span className="skillDesc">As a seasoned software engineer with 2.8 years of experience, 
+        I specialize in the dynamic realms of AI and trading. My expertise extends 
+        to working with MVC and MVT architectures, deploying scalable solutions using 
+        AWS and Docker for containerization. Proficient in both frontend technologies like 
+        React and backend technologies including Node.js and Django, I excel in developing end-to-end 
+        solutions, seamlessly integrating machine learning models into web applications for 
+        cutting-edge, impactful results.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={UIDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>UI/UX Design</h2>
-                    <p>This is demo text for UI/UX Design</p>
+                    <h2>Web Development</h2>
+                    <p>Elevating ideas to immersive web experiences through expert web development.</p>
                 </div>
             </div>
             <div className="skillBar">
                 <img src={WebDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>Web Design</h2>
-                    <p>This is demo text for Web Design</p>
+                    <h2>ML Applications</h2>
+                    <p>End-to-end app development, bridging ML ops with web tech</p>
                 </div>
             </div>
             <div className="skillBar">
                 <img src={AppDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>App Design</h2>
-                    <p>This is demo text for App Design</p>
+                    <h2>App Development</h2>
+                    <p>Crafting digital experiences through innovative app development</p>
                 </div>
             </div>
         </div>

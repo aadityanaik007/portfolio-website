@@ -1,10 +1,7 @@
 import React from 'react'
 import './contact.css'
-import walmart from '../../assests/walmart.png'
-import microsoft from '../../assests/microsoft.png'
-import facebook from '../../assests/facebook.png'
-import adobe from '../../assests/adobe.png'
-
+import accrete from '../../assests/accreteAI.png'
+import finrise from '../../assests/FinRise.png'
 import facebookIcon from '../../assests/facebook-icon.png'
 import twitter from '../../assests/twitter.png'
 import youtube from '../../assests/youtube.png'
@@ -14,15 +11,13 @@ const Contact = () => {
   return (
     <section id="contactPage">
         <div id="clients">
-            <h1 className="contactPageTitle">My Clients</h1>
+            <h1 className="contactPageTitle">My Experience</h1>
             <p className="clientDesc">
-                I got to work with a diverse group of companies.Some of the notable companies I've worked with includes!!
+            I've had the privilege of learning from prestigious universities and collaborating with a diverse array of companies, including notable names in my professional journey.
             </p>
             <div className="clientImgs">
-                <img src={walmart} alt="" className="clientImg" />
-                <img src={facebook} alt="" className="clientImg" />
-                <img src={microsoft} alt="" className="clientImg" />
-                <img src={adobe} alt="" className="clientImg" />
+                <img src={accrete} alt="" className="clientImg" />
+                <img src={finrise} alt="" className="clientImg" />
             </div>
         </div>
         <div id="contact">

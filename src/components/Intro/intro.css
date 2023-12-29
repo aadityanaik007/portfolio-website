@@ -17,7 +17,7 @@
     box-sizing: border-box;
     overflow: hidden;
     max-height: 70%;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .introContent{
@@ -66,7 +66,6 @@
         left: 0; /* Move the image to the left */
         max-width: 100%;
         top:1rem;
-
     }
 }
 
@@ -77,9 +76,6 @@
 }
 
 @media screen and (max-width:480px) {
-    .bg{
-        right:-20vh;
-    }
     .introContent{
         font-size: 10vw;
     }
