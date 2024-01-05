@@ -8,9 +8,9 @@ const Skills = () => {
     <section id="skills">
         <span className="skillTitle">What I do</span>
         <span className="skillDesc">As a seasoned software engineer with 2.8 years of experience, 
-        I specialize in the dynamic realms of AI and trading. My expertise extends 
+        I specialize in the dynamic realms of software development in AI and trading. My expertise extends 
         to working with MVC and MVT architectures, deploying scalable solutions using 
-        AWS and Docker for containerization. Proficient in both frontend technologies like 
+        AWS and Docker. Proficient in both frontend technologies like 
         React and backend technologies including Node.js and Django, I excel in developing end-to-end 
         solutions, seamlessly integrating machine learning models into web applications for 
         cutting-edge, impactful results.</span>
@@ -22,7 +22,7 @@ const Skills = () => {
                     <p>Elevating ideas to immersive web experiences through expert web development.</p>
                 </div>
             </div>
-            <div className="skillBar">
+            <div className="skillBar" id="skillBarML">
                 <img src={WebDesign} alt="" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>ML Applications</h2>
