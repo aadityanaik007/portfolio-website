@@ -2,6 +2,7 @@ import React from 'react'
 import articleBuzz from "../../assests/ArticleBuzzLogo.png"
 import rusticFarmVilla from "../../assests/RusticFarmVilla.png"
 import receipeDexter from "../../assests/receipeDexter.png"
+import desktop_cleaner from "../../assests/cleaner_pro.png"
 
 import "./portfolio.css"
 const Portfolio = () => {
@@ -23,6 +24,10 @@ const Portfolio = () => {
             <img src={receipeDexter} alt="" className="portfolioImg" onClick={() => redirectToGithub("receipeDexter")} />
             <p>Receipe Dexter</p>
         </div>
+        <div className='portfolioImgDiv'>
+            <img src={desktop_cleaner} alt="" className="portfolioImg" onClick={() => redirectToGithub("desktop_cleaner")} />
+            <p>Desktop Cleaner</p>
+        </div>
       </div>
       
 
@@ -34,7 +39,8 @@ const redirectToGithub = (link) => {
   const githubRidirect = {
     "articleBuzz": "https://github.com/aadityanaik007/ArticleBuzz",
     "rusticFarmVilla": "https://rustic-farm-villa.netlify.app/",
-    "receipeDexter": "https://github.com/aadityanaik007/ReceipeDexter/tree/main"
+    "receipeDexter": "https://github.com/aadityanaik007/ReceipeDexter/tree/main",
+    "desktop_cleaner":"https://github.com/aadityanaik007/DesktopCleaner"
   }
   window.open(githubRidirect[link], "_blank")
 }
